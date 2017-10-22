@@ -1,0 +1,16 @@
+.content-wrapper {
+    margin: 24px;
+    border: 2px solid #eaeaea;
+    border-radius: 3px;
+    padding: 1px;
+    text-align: left;
+    min-width: 505px;
+}
+
+.content {
+    padding: 0 40px 40px;
+    display: inline-block;
+    width: calc(100% - 220px);
+    min-width: 435px;
+}
+

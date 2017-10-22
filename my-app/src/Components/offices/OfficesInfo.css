@@ -1,0 +1,125 @@
+.app-offices-container-wrap {
+    height: 100%;
+    width: 100%;
+    border: 2px solid deepskyblue;
+    float: left;
+}
+
+.office {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 30px;
+    margin: 20px 0;
+}
+
+.office .office-section,
+.office .office-section .office-section-title,
+.office .office-section .office-section-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.office .office-section {
+    margin: 10px 0 10px 0;
+    min-width: 325px;
+}
+
+.office .office-section.buttons-section {
+    margin-right: 0;
+    min-width: 0;
+}
+
+.office .office-section.buttons-section .office-btn {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.office .office-section .office-section-title {
+    margin-right: 10px;
+    min-width: 55px;
+}
+
+.office.new-office .form-control {
+    display: inline-block;
+    width: 200px;
+    margin: 5px 0 5px 15px;
+    border-radius: 2px;
+}
+
+.office.new-office select.form-control {
+    padding: 6px 8px;
+}
+
+textarea.form-control {
+    max-width: 100%;
+    min-height: 100px;
+}
+
+.office.new-office .control-label {
+    text-align: right;
+    width: 110px;
+}
+
+.office.new-office {
+    padding-left: 10px;
+}
+
+.office.new-office .office-section {
+    margin: 10px 0;
+    max-width: 325px;
+}
+
+.app-offices-container-wrap .app-offices-container {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.company-header {
+    min-height: 144px;
+    padding-top: 40px;
+}
+
+.company-header h1 {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.buttons-section .right-section {
+    float: right;
+}
+
+.buttons-section .right-section button {
+    margin-left: 32px;
+}
+
+.divider {
+    border-style: dotted;
+    border-color: #ccc;
+    margin: 40px 0;
+    border-radius: 0;
+}
+
+.btn.office-btn {
+    color: #334152;
+    background-image: none;
+    box-shadow: none;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 6px 20px;
+}
+
+.btn.office-btn.btn-xs {
+    padding: 2px 20px;
+}
+
+.btn.office-btn.btn-primary {
+    color: #fff;
+}
+
+.checkbox-inline {
+    margin-left: 15px;
+}

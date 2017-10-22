@@ -1,0 +1,45 @@
+.header-wrap {
+    width: 100%;
+    background-color: #00749a;
+    height: 64px;
+    color: white;
+}
+
+.header-wrap .header {
+    height: 100%;
+    padding: 16px 0;
+}
+
+.header-wrap .header .header-item {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-wrap .header .header-item:hover {
+    opacity: 0.7;
+}
+
+.header-wrap .header .header-left-side,
+.header-wrap .header .header-right-side {
+    padding: 6px 0;
+}
+
+.header-wrap .header .header-left-side {
+    float: left;
+}
+
+.header-wrap .header-left-side .header-item {
+    margin-left: 32px;
+}
+
+.header-wrap .header .header-right-side {
+    float: right;
+}
+
+.header-wrap .header-right-side .header-item {
+    margin-right: 32px;
+}
+
+
+
+

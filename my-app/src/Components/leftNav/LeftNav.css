@@ -1,0 +1,71 @@
+.app-left-nav-wrap {
+    width: 220px;
+    min-height: 100%;
+    background-color: #e9f4fd;
+    color: #334152;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.left-nav-header {
+    height: 144px;
+    background-color: #00749a;
+}
+
+.left-nav-menu {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 0;
+}
+
+.left-nav-menu-item {
+    border-bottom: 1px solid #d8dde3;
+    padding: 16px 16px 16px 0;
+}
+
+.app-left-nav-wrap a {
+    cursor: pointer;
+    padding-left: 16px;
+}
+
+.app-left-nav-wrap a:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.left-nav-submenu {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+.left-nav-submenu-item {
+    margin: 8px 0 0 0;
+}
+
+.left-nav-submenu-item.completed:after {
+    content: ' ';
+    position: relative;
+    background-image: url('../../assets/check.png');
+}
+
+.left-nav-submenu-item.in-progress {
+    border-left: 2px solid #2888d1;
+    font-weight: bold;
+}
+
+.left-nav-submenu-item.in-progress a {
+    padding-left: 14px;
+}
+
+.left-nav-submenu-item.not-started a {
+    cursor: default;
+    opacity: 0.5;
+}
+
+.left-nav-submenu-item.not-started a:hover {
+    opacity: 0.5;
+}
